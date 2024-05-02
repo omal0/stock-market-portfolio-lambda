@@ -13,7 +13,6 @@ exports.handler = async(event) => {
   try {
     const data = await ddb.scan(params);
     data.Items.forEach(function(element, index, array) {
-      console.log(element);
       return data;
     });
     const response = {
