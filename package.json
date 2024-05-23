@@ -11,5 +11,16 @@
   "license": "ISC",
   "devDependencies": {
     "@aws-sdk/client-dynamodb": "^3.565.0"
-  }
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omal0/stock-market-portfolio-lambda.git"
+  },
+  "bugs": {
+    "url": "https://github.com/omal0/stock-market-portfolio-lambda/issues"
+  },
+  "homepage": "https://github.com/omal0/stock-market-portfolio-lambda#readme"
 }
